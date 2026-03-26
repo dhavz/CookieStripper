@@ -55,10 +55,3 @@ Place a sample cookie header in `test.txt`. You can verify parsing or stripping 
 java -cp build/classes io.github.burpextensions.cookiestripper.CookieHeaderStripperCli test.txt
 java -cp build/classes io.github.burpextensions.cookiestripper.CookieHeaderStripperCli test.txt JSESSIONID
 ```
-
-## Next Features Worth Adding
-
-- Save and load cookie-strip presets for different test phases.
-- Scope stripping to only selected hosts or paths.
-- Regex or prefix matching for cookie names.
-- Optional tab showing the last rewritten Cookie header for auditability.
