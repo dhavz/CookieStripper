@@ -49,11 +49,11 @@ Burp should load `io.github.burpextensions.cookiestripper.CookieStripperBurpExte
 
 ## Verification Helper
 
-You already placed a sample header in `test.txt`. You can verify parsing or stripping locally with:
+Place a sample cookie header in `test.txt`. You can verify parsing or stripping locally with:
 
 ```bash
 java -cp build/classes io.github.burpextensions.cookiestripper.CookieHeaderStripperCli test.txt
-java -cp build/classes io.github.burpextensions.cookiestripper.CookieHeaderStripperCli test.txt JSESSIONID _WL_AUTHCOOKIE_JSESSIONID
+java -cp build/classes io.github.burpextensions.cookiestripper.CookieHeaderStripperCli test.txt JSESSIONID
 ```
 
 ## Next Features Worth Adding
